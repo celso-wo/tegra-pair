@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+img {
+    margin-top: 40px;
+}
+
+h2 {
+    color: #58585A;
+    font-size: 20px;
+}
+
+.content {
+    position: relative;
+    width: 700px;
+    height: 500px;
+    margin: 60px auto 0;
+    background-color: #FFF;
+    border-radius: 8px;
+    -webkit-box-shadow: 6px 10px 40px 3px rgba(102,102,102,1);
+    -moz-box-shadow: 6px 10px 40px 3px rgba(102,102,102,1);
+    box-shadow: 6px 10px 40px 3px rgba(102,102,102,1);
+    text-align: left;
+}
+
+.content form {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    width: 400px;
+    display: inline-block;
+}
+
+.content form input {
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #AAA;
+    font-size: 14px;
+}
+
+.content form select {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.content form button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: #EA2036;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.content .cadastrados {
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    width: 250px;
+    display: inline-block;
+}
+
+.content .cadastrados select {
+    width: 100%;
+    height: 200px;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 12px;
+}
+
+.content .sorteio {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+}
+
+.content .sorteio button {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #EA2036;
+    border: none;
+    color: white;
+    font-size: 14px;
+}
+
+.content .sorteio div {
+    display: inline-block;
+    width: 320px;
+    height: 160px;
+    padding: 5px;
+}
+
+.content .sorteio label {
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    display: block;
+}
+
+.content .sorteio label.tipo {
+    color: #333;
+}
+
+.content .sorteio label.nome {
+    font-size: 18px;
+}

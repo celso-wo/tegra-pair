@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Tegra Pair</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <img src="http://www.tegra.com.br/static/images/tegra_logo.png" height="40px"/>
+        <div class="content">
+            <form action="#" onsubmit="adicionarSubmit()">
+                <h2>Cadastro de Desenvolvedores</h2>
+                <div class="field">
+                    <input id="nome" type="text" placeholder="Nome do desenvolvedor" />
+                </div>
+
+                <div class="field">
+                    <select id="tipo"></select>
+                </div>
+
+                <button type="submit">
+                    Adicionar
+                </button>
+            </form>
+
+            <div class="cadastrados">
+                <h2>Cadastrados</h2>
+                <select id="cadastrados" multiple>
+
+                </select>
+            </div>
+
+            <div class="sorteio">
+                <div class="driver">
+                    <h3>Driver</h3>
+                    <label class="tipo" id="driverTipo"></label>
+                    <label class="nome" id="driverNome"></label>
+                </div>
+                <div class="navigator">
+                    <h3>Navigator</h3>
+                    <label class="tipo" id="navigatorTipo"></label>
+                    <label class="nome" id="navigatorNome"></label>
+                </div>
+                <button type="button" onclick="sortearClick()">
+                    Sortear
+                </button>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
